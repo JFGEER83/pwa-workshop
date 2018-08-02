@@ -1,0 +1,49 @@
+/* Form Réservation */
+
+#prenom,
+#nom,
+#telephone,
+#evenement,
+#nombreDeReservEnfant,
+#nombreDeReservAdulte {
+    margin-bottom: 20px;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a:hover {
+    color: white !important;
+    background: #29164D !important;
+}
+
+select:focus{
+    border-color: lightgreen!important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #29164D!important;
+    outline: 0 none!important;
+}
+select option:hover:not(:focus) {
+    background-color: #29164D!important;
+    color: #fff!important;
+}
+
+
+.reservation_form button {
+    color: white;
+    background-color: #29164D;
+    border-color: #29164D;
+    width: 100%;
+}
+.reservation_form button:hover {
+    color: white;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    transition: 250ms ease-in-out;
+}
+.reservation_form button:active {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+
+.reservation_form-title {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}

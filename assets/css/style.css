@@ -1,0 +1,262 @@
+/* GENERAL */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*.anchor{
+    display:block;
+    height: 5px;
+    width:100%;
+    visibility:hidden;
+}*/
+
+/* FIN GENERAL */
+
+/* NAV */
+.navbar{
+    background-color: #29164D;
+    opacity: 0.9;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: lighter;
+}
+
+.navbar .navbar-nav > li > a {
+    color: white;
+    font-weight: lighter;
+}
+
+/* FIN NAV */
+
+/* CAROUSEL */
+.carousel-caption{
+     top: 30%;
+     bottom: auto;
+     font-size: xx-large;
+ }
+
+.cover-date{
+    font-size: large;
+}
+
+.bloc-around {
+    /* display: inline-block; */
+    width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    width: -moz-fit-content;
+    height: -moz-fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px 10px;
+    background-color: rgba(41, 22, 77, 0.7);
+}
+
+#troisiemeblocheader {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.headpicturecontactbutton:hover {
+    transition: all 125ms ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.headpicturecontactbutton:hover {
+    transition: all 75ms ease-in-out;
+
+}
+
+
+
+
+/* FIN CAROUSEL */
+
+/* A PROPOS */
+
+.jumbotron {
+    color: white;
+    background-color: #29164D;
+    background-size: cover;
+    border-radius: 0%;
+
+}
+
+.jumbotron p {
+    font-size: large;
+    font-weight: lighter;
+}
+
+hr {
+    border : 0.5px solid #FFF;
+}
+
+/* FIN A PROPOS */
+
+/* RESERVATION/MODAL */
+
+.col-lg-4{
+    border-style: solid;
+    border-width: thin;
+    border-color: #b9bbbe;
+    padding: 10px 10px 10px 10px ;
+}
+
+.btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-danger a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.reservation_section{
+    padding: 20px 20px 20px 20px ;
+}
+
+.reserv{
+    border-style: solid;
+    border-color: #869791;
+    border-width: thin;
+}
+/* FIN RESERVATION/MODAL */
+
+/* EVENEMENT */
+
+.rounded-circle {
+    height: 150px;
+    width : 150px;
+    overflow: hidden;
+}
+
+.event{
+    padding:20px 20px 20px 20px ;
+}
+
+
+.btn-primary{
+    background-color: #29164D;
+    border-color: #29164D;
+}
+
+/* FIN EVENEMENT*/
+
+/* PHOTOS */
+
+.pb100{
+    background-color: white;
+}
+
+#photos{
+    margin-top: 20px;
+    color: black;
+}
+
+.section_title{
+    padding-top: 15px;
+}
+
+.card{
+    border-style: none;
+    overflow: hidden;
+}
+
+img.photozoomhover:hover {
+    transform: scale(1.3);
+    transition: transform ease .6s;
+    cursor: pointer;
+}
+
+/* FIN PHOTOS */
+
+/* CONTACT */
+
+.contact{
+    border-style: solid;
+    border-color: #869791;
+    border-width: thin;
+}
+
+/* FIN CONTACT */
+
+/* FOOTER */
+.footer .page-footer {
+    background: #29164D;
+    color: #fff;
+}
+
+.footer .fa-twitter,
+.footer .fa-facebook,
+.footer .fa-dribbble,
+.footer .fa-google-plus {
+    color: white;
+}
+
+.footer .fa-twitter:hover {
+    color: rgb(0, 172, 237);
+}
+
+.footer .fa-facebook:hover {
+    color: rgb(59, 89, 152);
+}
+
+.footer .fa-dribbble:hover {
+    color: rgb(234, 76, 137);
+}
+
+.footer .fa-google-plus:hover {
+    color: rgb(211, 72, 54);
+}
+
+.footer .footer-copyright {
+    background: #29164D;
+    color: #fff;
+}
+
+.footer .footer-copyright a {
+    color: #ff2b43;
+}
+
+.footer .footer-copyright a:hover {
+    color: #fff;
+}
+
+.footer .bg-button-social {
+    border: 0.0625em solid rgb(100, 100, 100);
+    text-align: justify;
+    padding-top: 0.3675em;
+    padding-bottom: 0.1275em;
+    font-size: 0.8em;
+}
+
+.footer .createdby {
+    font-size: 0.7em;
+}
+
+.footer hr {
+    margin-bottom: 2em;
+    background: rgba(45, 45, 45, 0.8);
+}
+
+.footer h5 {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+.footer .connectus {
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(200, 200, 200);
+}
+
+.footer .elementFooter hr {
+    margin-top: -1em;
+    margin-bottom: 0.5em;
+    background: rgba(45, 45, 45, 0.8);
+}
+

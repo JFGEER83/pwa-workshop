@@ -1,0 +1,138 @@
+/* Styles relatifs aux Formulaires */
+
+li {
+    list-style: none;
+}
+
+/* Contactez nous section */
+.contacteznous {
+    margin-top: 50px;
+}
+
+.form-h5-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.form-contact_info-desc {
+    font-size: 0.9em;
+    line-height: 1.7em;
+    color: #666;
+}
+
+.contact_info ul {
+    margin-left: 0;
+    padding: 0;
+}
+
+.social_list li {
+    display: inline-block;
+    height: auto;
+}
+
+.social_list li a {
+    font-size: 2.4em;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #29164D;
+}
+
+.social_list li a:hover {
+    color: #AF6EE2;
+    transition: 250ms ease-in-out;
+}
+
+.icon_list li {
+    display: block;
+    height: auto;
+    height: 55px;
+    padding: 10px;
+}
+
+.icon_list li i {
+    background-color: #29164D;
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 7px 0;
+    font-size: 24px;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 23px;
+}
+
+.icon_list span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+.contact_form button {
+    color: white;
+    background-color: #29164D;
+    border-color: #29164D;
+    width: 100%;
+}
+.contact_form button:hover {
+    color: white;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    transition: 250ms ease-in-out;
+}
+
+textarea {
+    border: none!important;
+}
+
+textarea,
+option,
+input[type=text],
+input[type="number"],
+input[type="email"] {
+    border-radius: 0!important;
+    background-color: aliceblue!important;
+    caret-color: #29164D;
+    border: 0;
+    color: #29164D;
+}
+
+input[type="number"] {
+    width: 70px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border: 0;
+    color: #29164D;
+    background-color: white;
+    -webkit-transition: all ease-in-out 0.4s;
+    -ms-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px #29164D;
+    outline: 0 none;
+}
+
+textarea:focus {
+    border-color: lightgreen!important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px #29164D!important;
+    outline: 0 none!important;
+}
