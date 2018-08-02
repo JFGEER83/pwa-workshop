@@ -1,4 +1,4 @@
-#tuto-pwa-notes.md
+# tuto-pwa-notes.md
 
 Une progressive web app (PWA, applications web progressives en français1) est une application web qui consiste en des pages ou des sites web, et qui peuvent apparaître à l'utilisateur de la même manière que les applications natives ou les applications mobiles. Ce type d'applications tente de combiner les fonctionnalités offertes par la plupart des navigateurs modernes avec les avantages de l'expérience offerte par les appareils mobile.
 
